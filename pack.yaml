@@ -1,7 +1,7 @@
 ---
-ref: twilio
-name : twilio
-description : st2 content pack containing twilio integrations
-version: 0.3.1
-author : StackStorm, Inc.
-email : info@stackstorm.com
+ref: plivo
+name : plivo
+description : st2 content pack containing plivo integrations
+version: 0.0.1
+author : Andy Savage
+email : andy@savage.hk
