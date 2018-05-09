@@ -1,9 +1,9 @@
 ---
-name: send_sms
+name: make_call
 runner_type: python-script
-description: This sends a SMS using Plivo.
+description: This makes a call using Plivo.
 enabled: true
-entry_point: send_sms.py
+entry_point: make_call.py
 parameters:
   from_number:
     type: string
@@ -15,8 +15,8 @@ parameters:
     description: Recipient number in E.164 format. Example +14151234567.
     required: true
     position: 1
-  text:
+  answer_url:
     type: string
-    description: Text of the message.
+    description: Plivo will send a request to the answer_url with the attributes of the call. We expect a valid Plivo XML to be returned as a response to the request Plivo makes.
     required: true
     position: 2

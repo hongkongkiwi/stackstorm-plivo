@@ -1,11 +1,11 @@
 ---
-  account_sid:
-    description: "Account SID, 34-character string starting with AC"
+  auth_id:
+    description: "Plivo Auth ID"
     type: "string"
     secret: false
     required: true
   auth_token:
-    description: "Twilio authentication token"
+    description: "Plivo Auth Token"
     type: "string"
     secret: true
     required: true
