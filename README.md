@@ -1,20 +1,18 @@
-# Twilio Integration Pack
+# Plivo Integration Pack
 
-Pack which allows integration with [Twilio](https://www.twilio.com/) service.
+Pack which allows integration with [Plivo](https://www.plivo.com/) service.
 
 ## Configuration
 
-Copy the example configuration in [twilio.yaml.example](./twilio.yaml.example)
-to `/opt/stackstorm/configs/twilio.yaml` and edit as required.
+Copy the example configuration in [plivo.yaml.example](./plivo.yaml.example)
+to `/opt/stackstorm/configs/plivo.yaml` and edit as required.
 
 It must contain:
 
-* ``account_sid`` - Your account sid (a 34 character string, starting with the
-  letters AC).
-* ``auth_token`` - Your authentication token.
+* ``auth_id`` - Your account auth id.
+* ``auth_token`` - Your account auth token.
 
-Account sid and authentication token can be retrieved on the [Account
-Dashboard][https://www.twilio.com/user/account/] page.
+Auth ID and Token can be retrieved on the [Plivo Console][https://console.plivo.com/dashboard/] page.
 
 You can also use dynamic values from the datastore. See the
 [docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
