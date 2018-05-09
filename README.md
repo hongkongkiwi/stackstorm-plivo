@@ -12,7 +12,7 @@ It must contain:
 * ``auth_id`` - Your account auth id.
 * ``auth_token`` - Your account auth token.
 
-Auth ID and Token can be retrieved on the [Plivo Console][https://console.plivo.com/dashboard/] page.
+Auth ID and Token can be retrieved on the [Plivo Console](https://console.plivo.com/dashboard/) page.
 
 You can also use dynamic values from the datastore. See the
 [docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
